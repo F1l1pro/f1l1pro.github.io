@@ -1,11 +1,11 @@
-body{
-    background-color: #0a151e;
+body {
+  background-color: #0a151e;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 5em;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 4em;
 }
 .grid > a,
 .grid > img,
@@ -17,15 +17,15 @@ body{
   justify-self: center;
   align-self: center;
 }
-.nomobile{
-    display: none;
+.nomobile {
+  display: none;
 }
-#avatar{
-    display: none;
+#avatar {
+  display: none;
 }
 img {
-    border: solid 0.2em black;
-  
-    border-radius: 1cm;
-    box-shadow: 0 0 1em #ff0000;
+  border: solid 0.2em black;
+
+  border-radius: 1cm;
+  box-shadow: 0 0 1em #ff0000;
 }
